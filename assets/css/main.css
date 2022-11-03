@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav {
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    margin: 16px 28px;
+    font-size: 24px;
+}
+
+.navbar {
+    width: 423px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 21px 28px 20px 0px;
+    padding: 0px;
+    font-size: 16px;
+}
+
+.hero {
+    height: 720px;
+    max-width: 1440px;
+    margin: 0px auto;
+    background-image: url("../images/theater-image-background.png");
+    background-size: cover;
+    color: white;
+}
+
+.hero-text {
+    margin: 0px;
+    font-size: 96px;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.schedule {
+    max-width: 1259px;
+    margin: 82px auto 80px auto;
+}
+
+.date {
+    max-width: 1259px;
+    height: 72px;
+    display: flex;
+    justify-content: left;
+    color: #353535;
+    background-color: #D9D9D9;
+    border: 2px solid #A6A6A6;
+    padding: 22px 0px 22px 26px;
+    margin: 82px auto;
+    font-size: 24px;
+}
+
+.show-list {
+    max-width: 1259px;
+    height: 1206px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.show {
+    width: 1210px;
+    height: 261px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 54px;
+}
+
+.show-info {
+    width: 541px;
+    position: relative;
+    right: 44px;
+    bottom: 35px;
+    line-height: 48px;
+}
+
+.show-info h2 {
+    margin: 0px;
+    font-size: 36px;
+}
+
+.show-info p {
+    margin: 0px;
+    font-size: 16px;
+}
+
+.read-more {
+    width: 211px;
+    height: 65px;
+    background-color: #F0BB00;
+    border: 1px solid #A07D00;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 78px 0px 118px 0px;
+}
+
+footer {
+    margin-top: 80px;
+}
+
+.foot-container {
+    max-width: 1440px;
+    height: 432px;
+    padding-left: 116px;
+    padding-top: 78px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: top;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.map-button {
+    height: 291px;
+    width: 271px;
+    margin-right: 56px;
+    background-image: url("../images/chicago.png");
+    background-size: cover;
+}
+
+.foot-column {
+    width: 244px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.foot-column h2 {
+    font-size: 36px;
+    margin: 0px;
+    margin-bottom: 35px;
+}
+
+.foot-column ul {
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.foot-column li {
+    padding-bottom: 31px;
+}
+
+.first-link {
+    margin-bottom: 24px;
+}
+
+#social {
+    margin-bottom: 50px;
+}
