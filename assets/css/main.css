@@ -10,10 +10,17 @@ body {
 a {
     text-decoration: none;
     color: white;
+    ;
 }
 
 ul {
     list-style-type: none;
+}
+
+/* START HEADER */
+h1 {
+    margin: 16px 28px;
+    font-size: 24px;
 }
 
 nav {
@@ -25,11 +32,6 @@ nav {
     color: white;
 }
 
-h1 {
-    margin: 16px 28px;
-    font-size: 24px;
-}
-
 .navbar {
     width: 423px;
     display: flex;
@@ -39,7 +41,9 @@ h1 {
     padding: 0px;
     font-size: 16px;
 }
+/* END HEADER */
 
+/* START MAIN */
 .hero {
     height: 720px;
     max-width: 1440px;
@@ -120,19 +124,22 @@ h1 {
     background-color: #F0BB00;
     border: 1px solid #A07D00;
     color: white;
+    font-size: 24px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 78px 0px 118px 0px;
 }
+/* END MAIN */
 
+/* START FOOTER */
 footer {
     margin-top: 80px;
 }
 
 .foot-container {
     max-width: 1440px;
-    height: 432px;
+    height: 475px;
     padding-left: 116px;
     padding-top: 78px;
     display: flex;
@@ -143,8 +150,8 @@ footer {
 }
 
 .map-button {
-    height: 291px;
-    width: 271px;
+    height: 271px;
+    width: 291px;
     margin-right: 56px;
     background-image: url("../images/chicago.png");
     background-size: cover;
@@ -152,31 +159,23 @@ footer {
 
 .foot-column {
     width: 244px;
+    height: 238px;
     color: white;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .foot-column h2 {
     font-size: 36px;
     margin: 0px;
-    margin-bottom: 35px;
+    margin-bottom: 0px;
 }
 
-.foot-column ul {
+.foot-column p,
+.foot-column a {
     font-size: 20px;
     margin: 0px;
     padding: 0px;
 }
-
-.foot-column li {
-    padding-bottom: 31px;
-}
-
-.first-link {
-    margin-bottom: 24px;
-}
-
-#social {
-    margin-bottom: 50px;
-}
+/* END FOOTER */
